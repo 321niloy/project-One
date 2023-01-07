@@ -1,0 +1,218 @@
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+/* --------------------banner section------------------- */
+
+.banner-section {
+    background: url(../images/banner/banner3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0;
+}
+.banner-section .banner-parrents{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 50%;
+}
+.banner-section .banner-parrents .banner-text .banner-heading h2{
+ font-weight: 900;
+ font-size: 50px;
+line-height: 15px;
+}
+.banner-section .banner-parrents .banner-text .banner-heading .be{
+    margin-left: 53%;
+}
+.banner-section .banner-parrents .banner-text .banner-des p{
+    font-size: 13px;
+    text-align: justify;
+  text-justify: inter-word;
+}
+.banner-section .banner-parrents .banner-text .banner-button{
+    text-align: end;
+    padding-top: 5px;
+   
+}
+.banner-section .banner-parrents .banner-text .banner-button button{
+    padding: 10px;
+    border-radius: 10px;
+    border: white;
+}
+.banner-section .banner-parrents .banner-text .banner-button button a{
+    text-decoration: none;
+    padding: 5px;
+    color: rgba(38, 98, 209, 0.712);
+}
+.banner-section .banner-parrents .banner-text .banner-button button:hover a{
+    color:rgba(13, 153, 31, 0.938)
+}
+/* banner section end */
+.failure-section .failure-parrents{
+    display: flex;
+}
+.failure-section .failure-parrents .failure-childone img{
+    width: 450px;
+  }
+  .failure-section .failure-parrents .failure-childone{
+      padding-top: 92px;
+      width: 50%;
+  }
+.failure-section .failure-parrents .failure-childtwo .failure-list{
+    list-style: none;
+}
+.failure-section .failure-parrents .failure-childtwo{
+    padding-top: 244px;
+    width: 50%;
+}
+.failure-section .failure-parrents .failure-childtwo .failure-text h2{
+ font-weight: 1200;
+ font-size: 45px;
+}
+.failure-section .failure-parrents .failure-childtwo .failure-text p{
+    font-weight: 50;
+}
+.failure-section .failure-parrents .failure-childtwo .failure-list li{
+    font-weight: 50px;
+}
+.failure-section .failure-parrents .failure-childtwo .failure-list li span{
+    padding-right: 5px;
+    color:green;
+}
+/* /////////////////////////////            MY PLAN        ////////////////////////////////////////////////// */
+.plan-section{
+    padding-top: 56px;
+}
+.plan-section .plan-parrents .planchild-one h1{
+    text-align: center;
+    font-size: 40px;
+}
+.plan-section .plan-parrents .planchild-two{
+    display: flex;
+    padding-top: 43px;
+}
+
+.plan-section .plan-parrents .planchild-two .child-one,
+.plan-section .plan-parrents .planchild-two .child-two,
+.plan-section .plan-parrents .planchild-two .child-three,
+.plan-section .plan-parrents .planchild-two .child-four{
+    display: inline-block;
+    width: 25%;
+    align-self: center;
+    text-align: center;
+}
+
+
+
+/*  ///////////////////                 MY PLAN END                   /////////////                            */
+
+
+/* /////////////////////////////////    positive                  ///////////////////////////////////////////////// */
+.positive-section{
+    padding-top: 96px;
+}
+.positive-section .container{
+    background: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 6px;
+    position: relative;
+    
+}
+.positive-section .container::after{
+    position: absolute;
+    content: "";
+    background: url(../images/gradient1.png);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    
+    
+}
+
+.positive-section .positive-parrents{
+    padding-top: 43px;
+    padding-left: 16px;
+    padding-bottom: 30px;
+}
+.positive-section .positive-parrents .positive-text{
+    line-height: 14px;
+    font-size: 25px;
+    color: white;
+    font-weight: 900;
+    
+}
+.positive-section .positive-parrents .positive-button button{
+    padding: 12px 19px;
+    border-radius: 4px;
+    border: white;
+    z-index: -0.5;
+}
+.positive-section .positive-parrents .positive-button button a{
+    text-decoration: none;
+    color: rgb(11, 81, 146);
+}
+/* ///////////////////////positive end/////////////////////////////// */
+
+/* footer */
+.footer-section {
+    background-color: black;
+    margin-top: 89px;
+}
+.footer-section .footer-parrents{
+    display: flex;
+    padding-top: 94px;
+    padding-bottom: 84px;
+}
+.footer-section .footer-parrents .child-one{
+    width:70%
+}
+.footer-section .footer-parrents .child-two{
+    width: 30%;
+}
+.footer-section .footer-parrents .child-one .footer-text{
+    color: white;
+}
+.footer-section .footer-parrents .child-one .footer-describtion .blue{
+    color: rgb(89, 146, 221);
+}
+.footer-section .footer-parrents .child-one .footer-icon span img{
+    padding-right: 10px;
+}
+
+.footer-section .footer-parrents .child-one .footer-text .footer-title h1{
+    font-size: 40px;
+}
+.footer-section .footer-parrents .child-two h1{
+    color: white;
+}
+.footer-section .footer-parrents .child-two .form{
+    padding-bottom: 11px;
+}
+.footer-section .footer-parrents .child-two .form input[type=text] {
+    border: 2px solid whitesmoke;   
+    border-radius: 5px;
+    color: white;
+    padding:8px 40px 8px 10px;
+    background: none;
+  }
+  .footer-section .footer-parrents .child-two  .footer-button button a{
+    text-decoration: none;
+    color: white;
+  }
+  .footer-section .footer-parrents .child-two  .footer-button button{
+    padding: 15px 25px;
+    background: rgb(21, 84, 179);
+    border:rgb(21, 84, 179) ;
+    border-radius: 5px;
+  }
+/* //////////////////////////////////////positive end///////////////////////////////////////////////////////////// */
